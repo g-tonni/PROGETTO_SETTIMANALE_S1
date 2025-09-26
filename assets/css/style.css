@@ -34,7 +34,7 @@ h4,
 button {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -58,7 +58,7 @@ body {
 
 header {
   height: 600px;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 
 #sfondo-logo {
@@ -84,7 +84,6 @@ h1 {
   font-size: 45px;
   padding-top: 70px;
   padding-bottom: 25px;
-  font-weight: 700;
 }
 
 #par-inizio {
@@ -97,7 +96,7 @@ button {
   background-color: #f04c2f;
   color: white;
   width: 170px;
-  height: 50px;
+  height: 55px;
   font-size: 16px;
   font-weight: 700;
   border: none;
@@ -107,3 +106,91 @@ button {
 /* ------------- MAIN ------------- */
 
 /* ----- PARTE INIZIALE TESTI ----- */
+
+#contenitore-par-iniziali {
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+.par-elenco {
+  padding-bottom: 40px;
+}
+
+#img-tonda {
+  background-image: url(../images/notebook.jpg);
+  width: 330px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-size: 340px;
+  border-radius: 100%;
+  background-position: center;
+}
+
+/* ----- PARTE ARANCIONE ----- */
+
+#parte-arancione {
+  background-color: #f04c2f;
+  color: white;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 36px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+#citazione {
+  font-style: italic;
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+
+#m-rossi {
+  font-size: 1.6em;
+}
+
+#ceo {
+  font-size: 1em;
+  padding-bottom: 40px;
+}
+
+/* ----- PARTE ARANCIONE ----- */
+
+.riquadro {
+  width: 390px;
+  height: 435px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border: 1px solid #dee1e3;
+  text-align: center;
+}
+
+.foto-riq img {
+  width: 390px;
+}
+
+h4 {
+  font-size: 1.2em;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.testi-riq p {
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* ------------- FOOTER ------------- */
