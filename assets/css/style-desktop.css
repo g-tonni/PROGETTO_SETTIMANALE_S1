@@ -1,0 +1,228 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* 
+  OPEN SANS
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  MONTSERRAT
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+/* ------------- GENERALI ------------- */
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1.4em;
+  line-height: 1.7em;
+}
+
+a {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1,
+h3,
+h4 {
+  color: #25a2c3;
+}
+
+body {
+  background-color: rgb(64, 64, 64);
+}
+
+#contenitore-generale {
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+}
+
+/* ------------- HEADER ------------- */
+
+header {
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+#sfondo-logo {
+  background-color: black;
+  height: 140px;
+  text-align: center;
+}
+
+#logo {
+  width: 160px;
+  margin: 45px 0;
+}
+
+#foto-inizio {
+  text-align: center;
+  height: 480px;
+  background-image: url(../images/banner.jpg);
+  background-size: 720px;
+  background-position: center;
+}
+
+h1 {
+  font-size: 45px;
+  padding-top: 70px;
+  padding-bottom: 25px;
+}
+
+#par-inizio {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 40px;
+}
+
+button {
+  background-color: #f04c2f;
+  color: white;
+  width: 170px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ------------- MAIN ------------- */
+
+/* ----- PARTE INIZIALE TESTI ----- */
+
+#contenitore-par-iniziali {
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+.par-elenco {
+  padding-bottom: 40px;
+}
+
+#img-tonda {
+  background-image: url(../images/notebook.jpg);
+  width: 330px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-size: 330px;
+  border-radius: 100%;
+  background-position: center;
+}
+
+/* ----- PARTE ARANCIONE ----- */
+
+#parte-arancione {
+  background-color: #f04c2f;
+  color: white;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#parte-arancione h2 {
+  font-size: 36px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+#citazione {
+  font-style: italic;
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+
+#m-rossi {
+  font-size: 1.6em;
+}
+
+#ceo {
+  font-size: 1em;
+  padding-bottom: 40px;
+}
+
+/* ----- PARTE RIQUADRI ----- */
+
+.riquadro {
+  width: 390px;
+  height: 435px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border: 1px solid #dee1e3;
+  text-align: center;
+}
+
+.foto-riq img {
+  width: 390px;
+}
+
+h4 {
+  font-size: 1.2em;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.testi-riq p {
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* ------------- FOOTER ------------- */
+
+footer {
+  height: 400px;
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+}
+
+hr {
+  margin: 30px 120px;
+}
+
+#copy {
+  font-size: 1em;
+}
+
+footer h2 {
+  font-size: 36px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  font-weight: 200;
+  font-size: 1.3em;
+}
