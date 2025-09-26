@@ -17,6 +17,8 @@
   font-style: normal;
 */
 
+/* ------------- GENERALI ------------- */
+
 p {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -25,6 +27,10 @@ p {
   font-variation-settings: "wdth" 100;
   font-size: 1.4em;
   line-height: 1.7em;
+}
+
+a {
+  color: white;
 }
 
 h1,
@@ -130,7 +136,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  background-size: 340px;
+  background-size: 330px;
   border-radius: 100%;
   background-position: center;
 }
@@ -144,7 +150,7 @@ h3 {
   margin-bottom: 70px;
 }
 
-h2 {
+#parte-arancione h2 {
   font-size: 36px;
   padding-top: 80px;
   padding-bottom: 40px;
@@ -165,7 +171,7 @@ h2 {
   padding-bottom: 40px;
 }
 
-/* ----- PARTE ARANCIONE ----- */
+/* ----- PARTE RIQUADRI ----- */
 
 .riquadro {
   width: 390px;
@@ -194,3 +200,29 @@ h4 {
 }
 
 /* ------------- FOOTER ------------- */
+
+footer {
+  height: 400px;
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+}
+
+hr {
+  margin: 30px 120px;
+}
+
+#copy {
+  font-size: 1em;
+}
+
+footer h2 {
+  font-size: 36px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  font-weight: 200;
+  font-size: 1.3em;
+}
