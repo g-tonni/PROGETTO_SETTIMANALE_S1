@@ -128,6 +128,7 @@ h3 {
 .par-elenco {
   margin-left: 40px;
   padding-bottom: 40px;
+  width: 600px;
 }
 
 #t1 {
@@ -156,7 +157,7 @@ h3 {
 
 #parte-arancione h2 {
   font-size: 36px;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 
@@ -172,7 +173,7 @@ h3 {
 
 #ceo {
   font-size: 0.9em;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 
 /* ----- PARTE RIQUADRI ----- */
@@ -230,6 +231,7 @@ footer {
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
+  border: 1px solid white;
 }
 
 #copy {

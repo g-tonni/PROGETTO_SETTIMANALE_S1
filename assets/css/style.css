@@ -211,6 +211,7 @@ footer {
 
 hr {
   margin: 30px 120px;
+  border: 1px solid white;
 }
 
 #copy {
